@@ -1,16 +1,10 @@
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
     if (i === 1) {
-<<<<<<< HEAD
       array.push("I am 1 strange loop.")
     } else {
       array.push(`I am ${i} strange loops.`);
-=======
-      console.log("I am 1 strange loop.")
-    } else {
-      console.log("I am ${i} time");
->>>>>>> f1deb55d773cd21b9300c7638c75bdec0b6014f6
-    }
+   }
   }
   return array
 }
